@@ -18,7 +18,13 @@ class CardContent extends StatelessWidget {
         SizedBox(
           height: 16,
         ),
-        Text(text, style: TextStyle(fontSize: 16, color: Color(0xff8d8e98))),
+        Text(
+          text,
+          style: TextStyle(
+            fontSize: 16,
+            color: Color(0xff8d8e98),
+          ),
+        ),
       ],
     );
   }
